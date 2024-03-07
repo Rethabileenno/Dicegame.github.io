@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+
+
+        <!-- other tags -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <h1>Dice Game</h1>
+    <input id="player1" class="playerName" type="text" placeholder="Player 1 name">
+    <input id="player2" class="playerName" type="text" placeholder="Player 2 name">
+    <br>
+    <button id="rollButton">
+        🎲 Roll
+    </button>
+    <!-- <button id="newGameButton">New Game</button> -->
+    <div id="scoreboard">
+        <div id="player1Score">Player 1: 0</div>
+        <div id="player2Score">Player 2: 0</div>
+
+    </div>
+    <div id="results"></div>
+    <div class="congratulations">
+        <span class="red">Congratulations</span>
+        <span class="green">Congratulations</span>
+        <span class="blue">Congratulations</span>
+    </div>
+    
+    <script src="Dice.js"></script>
+</body>
+</html>
